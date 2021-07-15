@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Tests", "Patterns.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidProblems", "SolidProblems\SolidProblems.csproj", "{ED118178-F16A-4E36-8BFA-8963DD377897}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidProblems.Tests", "SolidProblems.Tests\SolidProblems.Tests.csproj", "{E72F1781-ADD2-42DE-967F-85F457CAF798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ED118178-F16A-4E36-8BFA-8963DD377897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED118178-F16A-4E36-8BFA-8963DD377897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED118178-F16A-4E36-8BFA-8963DD377897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72F1781-ADD2-42DE-967F-85F457CAF798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72F1781-ADD2-42DE-967F-85F457CAF798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72F1781-ADD2-42DE-967F-85F457CAF798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72F1781-ADD2-42DE-967F-85F457CAF798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
