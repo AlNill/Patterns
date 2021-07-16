@@ -42,7 +42,6 @@ namespace SolidProblems.SingleResponsibilityPrincipleError
                 {
                     if (reader.HasRows)
                     {
-
                         while (reader.Read())
                         {
                             int actorNameIndex = reader.GetOrdinal("first_name");
