@@ -3,7 +3,7 @@
     public class LeatherDetail: DetailDecorator
     {
         public LeatherDetail(ICabinDetail detail) : 
-            base(detail.Name + "Add leather insert", detail) { }
+            base(detail.Name + " Add leather insert", detail) { }
 
         public override int GetCost()
         {
@@ -14,7 +14,7 @@
     public class ClothDetail : DetailDecorator
     {
         public ClothDetail(ICabinDetail detail) :
-            base(detail.Name + "Add cloth insert", detail)
+            base(detail.Name + " Add cloth insert", detail)
         { }
 
         public override int GetCost()
@@ -26,7 +26,7 @@
     public class AlcantaraDetail : DetailDecorator
     {
         public AlcantaraDetail(ICabinDetail detail) :
-            base(detail.Name + "Add alcantara insert", detail)
+            base(detail.Name + " Add alcantara insert", detail)
         { }
 
         public override int GetCost()
@@ -38,7 +38,7 @@
     public class PlasticDetail : DetailDecorator
     {
         public PlasticDetail(ICabinDetail detail) :
-            base(detail.Name + "Add plastic insert", detail)
+            base(detail.Name + " Add plastic insert", detail)
         { }
 
         public override int GetCost()
